@@ -10,8 +10,9 @@ export default function Weather(props) {
   const [cityInfo, setCityInfo] = useState("");
   const [city, setCity] = useState(props.city);
   const [value, setValue] = useState("");
-  const [units, setUnits] = useState("metric");
+
   let apiKey = "de2c40e370d58e257faf07ba4ea95840";
+  let units = "metric";
 
   function showWeather(response) {
     setCityInfo(response.data);
