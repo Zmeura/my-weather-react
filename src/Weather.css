@@ -179,3 +179,17 @@ input:focus:-ms-input-placeholder {
 .weatherdiscription {
   text-transform: capitalize;
 }
+
+.buildby {
+  padding-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.sourcelink {
+  text-decoration: none;
+}
+
+.sourcelink:hover {
+  text-decoration: underline;
+}

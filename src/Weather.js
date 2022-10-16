@@ -46,72 +46,96 @@ export default function Weather(props) {
 
   if (ready) {
     return (
-      <div className="box">
-        <div className="Cities">
-          <span
-            className="Col"
-            id={"kyiv"}
-            onClick={(event) => setCity(event.currentTarget.id)}
-          >
-            Kyiv
-          </span>
-          <span
-            className="Col"
-            id={"odesa"}
-            onClick={(event) => setCity(event.currentTarget.id)}
-          >
-            Odesa
-          </span>
-          <span
-            className="Col"
-            id={"lviv"}
-            onClick={(event) => setCity(event.currentTarget.id)}
-          >
-            Lviv
-          </span>
-          <span
-            className="Col"
-            id={"kharkiv"}
-            onClick={(event) => setCity(event.currentTarget.id)}
-          >
-            Kharkiv
-          </span>
-          <span
-            className="Col"
-            id={"dnipro"}
-            onClick={(event) => setCity(event.currentTarget.id)}
-          >
-            Dnipro
-          </span>
-        </div>
+      <div>
+        <div className="box">
+          <div className="Cities">
+            <span
+              className="Col"
+              id={"kyiv"}
+              onClick={(event) => setCity(event.currentTarget.id)}
+            >
+              Kyiv
+            </span>
+            <span
+              className="Col"
+              id={"odesa"}
+              onClick={(event) => setCity(event.currentTarget.id)}
+            >
+              Odesa
+            </span>
+            <span
+              className="Col"
+              id={"lviv"}
+              onClick={(event) => setCity(event.currentTarget.id)}
+            >
+              Lviv
+            </span>
+            <span
+              className="Col"
+              id={"kharkiv"}
+              onClick={(event) => setCity(event.currentTarget.id)}
+            >
+              Kharkiv
+            </span>
+            <span
+              className="Col"
+              id={"dnipro"}
+              onClick={(event) => setCity(event.currentTarget.id)}
+            >
+              Dnipro
+            </span>
+          </div>
 
-        <div className="SearchingForm">
-          <form onSubmit={handleOnSubmit}>
-            <input
-              type="text"
-              placeholder="Enter a city..."
-              className="input"
-              id="input"
-              autoComplete="off"
-              value={value}
-              onChange={(event) => setValue(event.currentTarget.value)}
-              onSubmit={handleOnSubmit}
-            />
+          <div className="SearchingForm">
+            <form onSubmit={handleOnSubmit}>
+              <input
+                type="text"
+                placeholder="Enter a city..."
+                className="input"
+                id="input"
+                autoComplete="off"
+                value={value}
+                onChange={(event) => setValue(event.currentTarget.value)}
+                onSubmit={handleOnSubmit}
+              />
 
-            <input type="submit" className="search button" value="SEARCH" />
-            <input
-              type="button"
-              className="current button"
-              id="currentbutton"
-              value="CURRENT"
-              onClick={showCurrenLocation}
-            />
-          </form>
-        </div>
+              <input type="submit" className="search button" value="SEARCH" />
+              <input
+                type="button"
+                className="current button"
+                id="currentbutton"
+                value="CURRENT"
+                onClick={showCurrenLocation}
+              />
+            </form>
+          </div>
 
-        <div>
-          <WeatherInfo data={cityInfo} city={city} />
+          <div>
+            <WeatherInfo data={cityInfo} city={city} />
+          </div>
         </div>
+        <footer>
+          <div className="buildby">
+            This project was coded by{" "}
+            <a
+              href="https://www.linkedin.com/in/alina-ivanova-3b3729243/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="sourcelink"
+            >
+              <strong> Alina Ivanova</strong>
+            </a>{" "}
+            and it is{" "}
+            <a
+              href="https://github.com/Zmeura/my-weather-react"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="sourcelink"
+            >
+              <strong>open-sourced on GitHub</strong>
+            </a>
+          </div>
+        </footer>
       </div>
     );
   } else {
