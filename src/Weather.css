@@ -8,7 +8,6 @@
   border: 1 px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   width: 700px;
-
   height: 480px;
 }
 
@@ -181,9 +180,17 @@ input:focus:-ms-input-placeholder {
 }
 
 .buildby {
-  padding-top: 10px;
+  margin: 20px auto;
   font-size: 14px;
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  border: 1 px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  width: 550px;
+  height: 18px;
 }
 
 .sourcelink {

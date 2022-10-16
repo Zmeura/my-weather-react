@@ -133,8 +133,9 @@ export default function Weather(props) {
               rel="noopener noreferrer"
               className="sourcelink"
             >
-              <strong>open-sourced on GitHub</strong>
-            </a>
+              <strong>open-sourced</strong>
+            </a>{" "}
+            on GitHub
           </div>
         </footer>
       </div>
