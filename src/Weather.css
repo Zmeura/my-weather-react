@@ -1,0 +1,181 @@
+.box {
+  position: relative;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1 px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  width: 700px;
+
+  height: 480px;
+}
+
+.Cities {
+  color: #046ab8;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 70px;
+  text-shadow: 0.4px 0.4px 0.4px rgb(78, 77, 77);
+}
+
+.Col {
+  display: inline-block;
+  padding: 0 20px;
+  transition: all 300ms ease-in-out;
+}
+
+.Col:hover {
+  cursor: pointer;
+  color: #05508a;
+}
+
+.input {
+  background: #f0fafc;
+  border: none;
+  margin-left: 27px;
+  width: 40%;
+  font-size: 28px;
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px #9cb6e7;
+  outline: none;
+  color: #5e6576;
+  font-size: 24px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.button {
+  color: #5e6576;
+  font-weight: bolder;
+  transition: all 300ms ease-in-out;
+  box-shadow: 3px 3px 3px #9cb6e7;
+  border-radius: 10px;
+  margin-left: 5px;
+  font-size: 24px;
+  padding: 5px 20px;
+  background: #c4e5f3;
+  border: 1px;
+  border-color: #7ebff0;
+  border-style: solid;
+  width: 170px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #deeef4;
+  color: #565c6b;
+}
+
+.button:active {
+  background: #8cb7c7;
+  color: #4e5460;
+}
+
+.currentcity {
+  color: #016fc6;
+  font-size: 54px;
+  font-weight: bold;
+  font-style: italic;
+  padding-left: 30px;
+  line-height: 82px;
+  text-shadow: 1px 2px 1px rgb(78, 77, 77);
+}
+
+.slash {
+  color: #035696;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(78, 77, 77);
+}
+
+.dayofweekandtime {
+  color: #016fc6;
+  font-size: 34px;
+  font-style: italic;
+  padding-left: 65px;
+  text-shadow: 0.4px 0.4px 0.4px rgb(78, 77, 77);
+  position: relative;
+  bottom: 52px;
+}
+
+.weathericon {
+  position: relative;
+  right: 240px;
+  top: 35px;
+}
+
+.currenttemperature {
+  color: #035696;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(78, 77, 77);
+  position: absolute;
+  left: 128px;
+  top: 254px;
+}
+
+.metric {
+  position: absolute;
+  bottom: 22px;
+  right: 255px;
+  text-shadow: 1px 1px 1px rgb(78, 77, 77);
+  left: 195px;
+  top: 258px;
+}
+
+.active {
+  color: #035696;
+}
+
+.noactive {
+  color: #4393d1;
+}
+
+.noactive:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.fahrenheitelement,
+.celsiuselement {
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+.fahrenheit:hover,
+.celsius:hover {
+  color: #4fa6e8;
+}
+
+.discription {
+  color: #016fc6;
+  text-shadow: 0.4px 0.4px 0.4px rgb(78, 77, 77);
+  position: absolute;
+  left: 430px;
+  bottom: 170px;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 42px;
+  list-style-type: none;
+}
+
+.weatherdiscription {
+  text-transform: capitalize;
+}
