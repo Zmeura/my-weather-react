@@ -108,14 +108,19 @@ input:focus:-ms-input-placeholder {
   font-style: italic;
   padding-left: 65px;
   text-shadow: 0.4px 0.4px 0.4px rgb(78, 77, 77);
-  position: relative;
-  bottom: 52px;
+  /* position: relative;
+  bottom: 52px; */
 }
 
-.weathericon {
+/* .weathericon {
   position: relative;
   right: 300px;
   top: 35px;
+} */
+
+.weatherbox {
+  margin-left: 40px;
+  margin-top: 5px;
 }
 
 .currenttemperature {
@@ -123,18 +128,18 @@ input:focus:-ms-input-placeholder {
   font-size: 60px;
   font-weight: bold;
   text-shadow: 1px 1px 1px rgb(78, 77, 77);
-  position: absolute;
-  left: 128px;
-  top: 254px;
+  margin-left: 10px;
+  position: relative;
+  bottom: 10px;
 }
 
 .metric {
-  position: absolute;
   bottom: 22px;
   right: 255px;
   text-shadow: 1px 1px 1px rgb(78, 77, 77);
-  left: 195px;
-  top: 258px;
+  position: relative;
+  left: 1px;
+  bottom: 34px;
 }
 
 .active {

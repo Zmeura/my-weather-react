@@ -14,10 +14,12 @@ export default function WeatherInfo(props) {
         <br />
         <FormatDate />
 
-        <span className="weathericon">
-          <WeatherIcon code={props.data.weather[0].icon} />
-        </span>
-        <Temperature celsius={props.data.main.temp} city={props.city} />
+        <div className="weatherbox">
+          <span className="weathericon">
+            <WeatherIcon code={props.data.weather[0].icon} />
+          </span>
+          <Temperature celsius={props.data.main.temp} city={props.city} />
+        </div>
       </div>
 
       <div>
