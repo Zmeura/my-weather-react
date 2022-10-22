@@ -8,7 +8,7 @@
   border: 1 px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   width: 700px;
-  height: 515px;
+  height: 510px;
 }
 
 .Cities {
@@ -91,8 +91,10 @@ input:focus:-ms-input-placeholder {
   font-weight: bold;
   font-style: italic;
   padding-left: 30px;
-  line-height: 82px;
+
   text-shadow: 1px 2px 1px rgb(78, 77, 77);
+  position: relative;
+  bottom: 13px;
 }
 
 .slash {
@@ -164,8 +166,8 @@ input:focus:-ms-input-placeholder {
   color: #016fc6;
   text-shadow: 0.4px 0.4px 0.4px rgb(78, 77, 77);
   position: absolute;
-  left: 430px;
-  bottom: 190px;
+  left: 435px;
+  bottom: 182px;
   font-style: italic;
   font-size: 22px;
   line-height: 42px;
