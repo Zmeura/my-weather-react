@@ -1,0 +1,20 @@
+.weatherForecast-day {
+  color: #035696;
+  font-size: 21px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.weatherForecast-temperatures {
+}
+.weatherForecast-temperature-max {
+  color: #054c82;
+  font-size: 21px;
+  font-weight: 600;
+}
+.weatherForecast-temperature-min {
+  color: #035696;
+  font-size: 21px;
+  opacity: 0.6;
+  margin-left: 6px;
+  font-weight: 600;
+}

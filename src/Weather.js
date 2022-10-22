@@ -3,7 +3,6 @@ import axios from "axios";
 import "./Weather.css";
 import { RotatingLines } from "react-loader-spinner";
 import WeatherInfo from "./WeatherInfo";
-import "./Weather.css";
 
 export default function Weather(props) {
   const [ready, setReady] = useState(false);
@@ -11,7 +10,7 @@ export default function Weather(props) {
   const [city, setCity] = useState(props.city);
   const [value, setValue] = useState("");
 
-  let apiKey = "de2c40e370d58e257faf07ba4ea95840";
+  let apiKey = "95d7d2d06b9ed1ae1ccca7fcd6a50893";
   let units = "metric";
 
   function showWeather(response) {

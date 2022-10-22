@@ -3,5 +3,5 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
+  justify-content: stretch;
 }

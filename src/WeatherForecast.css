@@ -1,0 +1,12 @@
+.weatherForecast {
+  text-align: center;
+}
+
+.forecastList {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  margin: 0;
+  padding: 0;
+}

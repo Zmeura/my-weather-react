@@ -8,7 +8,7 @@
   border: 1 px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   width: 700px;
-  height: 480px;
+  height: 515px;
 }
 
 .Cities {
@@ -108,15 +108,7 @@ input:focus:-ms-input-placeholder {
   font-style: italic;
   padding-left: 65px;
   text-shadow: 0.4px 0.4px 0.4px rgb(78, 77, 77);
-  /* position: relative;
-  bottom: 52px; */
 }
-
-/* .weathericon {
-  position: relative;
-  right: 300px;
-  top: 35px;
-} */
 
 .weatherbox {
   margin-left: 40px;
@@ -173,7 +165,7 @@ input:focus:-ms-input-placeholder {
   text-shadow: 0.4px 0.4px 0.4px rgb(78, 77, 77);
   position: absolute;
   left: 430px;
-  bottom: 170px;
+  bottom: 190px;
   font-style: italic;
   font-size: 22px;
   line-height: 42px;
@@ -204,4 +196,9 @@ input:focus:-ms-input-placeholder {
 
 .sourcelink:hover {
   text-decoration: underline;
+}
+
+hr {
+  margin: 0;
+  border-width: 2px;
 }
